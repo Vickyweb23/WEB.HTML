@@ -1,0 +1,1429 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+.navbar{
+   background-color:orange;
+   height: 40px;
+}
+.navbar2{
+   background-color:ORANGE;
+   height: 11px;
+
+}
+.navbar2 ul  {
+   display:flex; 
+   padding-left:2px 2px; 
+   
+  
+  
+
+
+}
+.navbar2 ul li{
+   list-style: none;
+   padding:14px;
+}
+
+
+.navbar ul  {
+   display:flex;
+   padding-left:2px 2px; 
+   
+  
+   margin-left: 69%;
+
+
+}
+
+.navbar ul li{
+   list-style: none;
+   padding:14px;
+}
+.navbar ul li i{
+   border-radius: 50% white;
+}
+
+.navbar2 img{
+   height:43px;
+   display:flex;
+   
+}
+.navbar2 ul {
+   
+   margin-bottom: 22px;
+   font-size: large;
+   margin-left:733px;
+   position: relative;
+   bottom:33px;
+   background-color:white;
+   
+  
+  
+}
+.navbar2 ul li {
+   margin-bottom: 22px;
+   position:relative;
+   cursor: pointer;
+}
+/* navbar is hover effect in header */
+.navbar2 ul li ::after{
+
+color:orange;
+cursor: progress;
+content: '';
+width: 100%;
+position:absolute;
+background-color: yellow;
+left: 0;
+transition: 0.5s;
+height:3px;
+bottom:0;
+
+}
+
+.navbar2 ul li:hover::after{
+width: 100%;
+background-color: green;
+}
+.banner img{
+background-image:contain;
+margin-top: 72px;
+background:cover;
+width: 100%;
+height: 60%px;
+display:block;
+
+}
+.banner-text h1{
+   position:relative;
+  
+   bottom:400px;
+  
+   font-family: verdana;
+   font-weight: 400;
+   display: flex;
+   color:white;
+   float:left;
+   align-items: first baseline;
+   text-shadow: 2px 2px 10px aqua;
+   
+}
+
+
+.banner-text h2{ 
+   position:relative;
+  
+   bottom:400px;
+   text-shadow: 2px 2px 10px yellow;
+   font-family: verdana;
+   font-weight: 100;
+   display: flex;
+   float:left;
+   align-items: first baseline;
+   color:yellowgreen;
+   justify-content: left;
+   word-break: unset;
+   
+   
+}
+.btn{
+   position:relative;
+  right:670px;
+   bottom:270px;
+   padding: 14px 14px ;
+   margin:11px 11px;
+   font-size:22px;
+   height: 45px;
+   width: 125px;
+   justify-content: center !important;
+   align-items: end !important;
+   background-color: #e91e63;
+   border-radius: 5px;
+   overflow: hidden;
+   color: white;
+   font:300;
+
+
+}
+.btn:hover{
+   background:rgb(154, 160, 160);
+   box-shadow: 2px 2px 10px white,
+                   2px 3px 10px whitesmoke;
+}
+.card{
+   border-radius:  5px 5px 5px 5px;
+   
+   letter-spacing: 2px;
+   word-break: break-all;
+   text-align: justify;
+   justify-content: center;
+   
+ 
+}
+.card h3{
+   font-size: medium;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+}
+.card h2{
+   font-size: medium;
+   color: white;
+   font-family: sans-serif;
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   font-size: 23px;
+}
+.card h1{
+font-size: 37px;
+color: white;
+}
+.card1{
+   background-color:#21a9f4;
+   height: 320px;
+   width:21%;
+   border-bottom: 5px solid #083e56;
+   margin: 12px;
+  box-sizing: content-box;
+  box-shadow: 2px 2px 1px skyblue,
+               2px 3px 1px skyblue,
+               2px 4px 1px skyblue;
+               border-radius: 10px 10px;
+   
+}
+.card2{
+   background-color: #e91e63;
+   border-bottom: 7px solid rgb(199, 9, 72);
+
+   height: 320px;
+   width:21%;
+  border-radius: 10px 10px;
+  
+   margin: 12px;
+
+position: relative;
+
+left: 385px;
+bottom: 400px;
+}
+  
+.card3{
+   background-color:#661599;
+   height: 350px;
+   width:21%;
+   border-bottom: 7px solid #ba73e6 ;
+   box-shadow: 2px 2px 1px #661599,
+                 2px 3px 1px #661599,
+                     2px 4px 1px #661599;
+                     border-radius: 10px 10px;
+   margin: 12px;
+   position: relative;
+
+left: 0px;
+bottom: 318px;
+
+}
+.card4{
+   background-color:#41b9b9;
+   height: 350px;
+   width:21%;
+   border-bottom: 5px solid #0ccece;
+   box-shadow: 2px 2px 1px #41b9b9,
+   2px 3px 1px #41b9b9,
+       2px 4px 1px #41b9b9;
+       border-radius: 10px 10px;
+   margin: 12px;
+   position: relative;
+
+left: 385px;
+bottom: 710px;
+}
+.about{
+   position: relative;
+   bottom: 1391px;
+   left: 818px;
+   width: 53rem;
+
+   justify-content: center;
+   align-items: center;
+  
+   overflow-x: hidden;
+   word-break: break-all;
+
+   
+}
+ #learn{
+   position:relative;
+   bottom:1282px;
+   left:1752px;
+   
+
+}
+.about h2{
+overflow: hidden;
+word-spacing: 2px ;
+font-size: 20px;
+font-family: verdana;
+display: flex;
+margin-top: 12px;
+background: pink;
+
+}
+
+.about{
+   background:aqua; 
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+   word-spacing: 1px;
+   padding: 11px;
+   
+}
+.about h1{
+   background: #db1255;
+}
+.bts{
+   
+   background-color: black;
+       position: relative;
+       bottom:1900px;
+       left:-152px;
+       position:relative;
+ 
+   padding: 14px 14px ;
+   margin:11px 11px;
+   font-size:22px;
+   height: 45px;
+   width: 149px;
+   justify-content: center !important;
+   align-items: end !important;
+   background-color: #f79520;
+   border-radius: 5px 25px 5px 25px;
+   
+   overflow: hidden;
+   color: white;
+   font:300;
+   
+}
+.about p{
+   color: rgb(39, 38, 38);
+   text-align: justify;
+ 
+ 
+}
+
+.bts::before{
+background-color: black;
+background: orange;
+
+}
+
+.bts:hover{
+
+background-color: rgb(54, 51, 51);
+z-index:  10;
+top: -10;
+bottom: 1;
+transition:0.5s;
+text-align: center;
+justify-content: center;
+color: white;
+
+}
+
+.pic{
+   background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+   width: 100;
+   height: 100Vh;
+   position: relative;
+   bottom:1344px;
+   display:flex;
+}
+
+
+/* .card:hover{
+   box-shadow: inset 2px 4px 31px  black,
+               inset 2px 14px 33px pink,
+               inset 2px 14px 33px  black,
+               inset 2px 14px 33px black,
+                2px 6px 2px aquamarine;
+
+
+
+
+
+}
+.card-img-top{
+   background-color: #ff5acd;
+}
+
+
+    
+.card{
+    height: 372px;
+    width:17%;
+    background-color:  #ff5acd;
+    border-radius:20px;
+   
+    box-shadow:6px 2px 2px aqua,
+                    2px 3px 12px black,
+                    3px 2px 13px 3px green;
+overflow: hidden;
+
+   
+   float:left;
+   margin:20px;
+   margin-top:155px;
+   margin-left:155px;
+   font-size: 20px;
+   letter-spacing: 2px;
+   
+   letter-spacing: 2px;
+   text-align: center;
+   justify-content:center;
+
+
+}
+
+
+.card h1{
+    
+   object-fit: contain;
+   font-size: 25px;
+   margin-top: 59px;
+} */
+/* .table{
+   border-collapse:collapse;
+}
+.tb{
+  
+   padding:33px ;
+   background-color: orangered;
+   
+}
+.tb1{
+  
+   padding:3px ;
+   background-color: rgba(122, 5, 5, 0.836);
+   
+}
+.table{
+   border-collapse:collapse;
+    margin: 22px auto;
+    border: black;
+    color: white;
+    box-shadow: none ;
+    text-shadow: none;
+}
+.container{
+   
+   text-align: center;
+   
+   justify-content: center;
+   position:relative;
+   left:20%;
+   color:white;
+   overflow: hidden;
+}
+
+.Top {
+   background-color:rgb(226, 5, 5);
+padding:12px;
+
+width:300px;
+border: solid 1px black;   
+}
+.left{
+   background:orangered;
+   padding:42px;
+   justify-content: center;
+   align-items: center;
+   width:150px;
+   justify-content: center;
+  
+   float: left;
+   border: solid 1px black;
+}
+.right{
+   background:orangered;
+   padding:42px;
+   justify-content: center;
+   border: solid 1px black;
+   
+   width:150px;
+   float: left;
+   align-items: center;
+}*/
+#mylogin{
+   text-align: center;
+   justify-content: center;
+   font-size: 35px;
+   text-decoration:    2px underline  orange;
+
+   position: relative;
+   bottom: 1297px;
+   right:30px;
+   font-weight: bold;
+  
+   
+}
+.log1{
+   
+   align-items: center;
+    
+    position: relative;
+    bottom:67rem;
+    right:8rem;
+  justify-content: center;
+    word-break: break-all;
+    text-align: center;
+    background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+  
+  } 
+  .log2{
+   
+   align-items: center;
+   
+   position: relative;
+    bottom:67rem;
+    
+    justify-content: center;
+    word-break: break-all;
+    text-align: center;
+    word-wrap: break-word;
+    background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+    
+  }
+  .log3{
+   
+   align-items: center;
+   
+   position: relative;
+    bottom:67rem;
+    left:8rem;
+    word-break: break-all;
+    text-align: center;
+    background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+  
+  }
+  .playout{
+   display: flex;
+   padding: 22px;
+   margin-left: 9rem;
+   margin-right:9rem;
+   color: black;
+   Position:relative;
+   bottom:12rem;
+   
+
+   
+  }
+    .playout2 {
+      display: flex;
+   padding: 22px;
+   margin-left: 9rem;
+   margin-right:9rem;
+   color: black;
+   Position:relative;
+   bottom:6rem;
+   
+   
+     
+    }
+    .log4{
+   
+      align-items: center;
+       
+       position: relative;
+       bottom:67rem;
+       right:8rem;
+     
+       word-break: break-all;
+       text-align: center;
+       background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+     
+     } 
+     .log5{
+      
+      align-items: center;
+      
+      position: relative;
+       bottom:67rem;
+       left:-1rem;
+       justify-content: center;
+       word-break: break-all;
+       text-align: center;
+       word-wrap: break-word;
+       background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+       
+     }
+     .log6{
+      
+      align-items: center;
+      
+      position: relative;
+       bottom:67rem;
+       left:7rem;
+       justify-content: center;
+       word-break: break-all;
+       text-align: center;
+       background: url(https://login360.in/wp-content/uploads/2021/02/counterbg1-2.png);
+     
+     }
+     #view{
+      position: relative;
+      bottom:-180px;
+      left: 88rem;
+      height: 52px;
+      
+     }
+     .cloud .cloudtext{
+      float:left;
+     margin: 22px;
+      top:62px;
+    font-size: 22px;
+
+   }
+   #cl{
+      
+      height: 150px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      position:relative;
+      bottom:2px;
+
+
+   }
+    .cloud .cloudimg{
+      float:right;
+      height: 152px;
+      position: relative;
+      bottom:33px;
+   }
+.cloud{
+   display:flex;
+   position: relative;
+   bottom:1122px;
+   background-color:whitesmoke ;
+   height: 353px;
+ 
+}
+.awstotal{
+   display:flex;
+   max-width:20%px;
+   position: relative;
+   
+}
+.aws{
+   
+   margin:2px ;
+   padding:3px ;
+   
+   height: 252px;
+   border-radius:10px;
+   margin:42px 42px ;
+   padding:3px ;
+   max-width: 25%;
+   
+   position:relative;
+   left:100px;
+   box-shadow:2px 2px 15px black,
+              2px 4px  15px white,
+              2px 8px  15px  white,
+              2px 12px 15px white;
+   
+}
+.google{
+   
+   margin:2px ;
+   padding:3px ;
+   
+   height: 252px;
+   border-radius:10px;
+   margin:42px 42px ;
+   padding:3px ;
+   max-width: 25%;
+   
+   position:relative;
+   left:100px;
+   
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+
+}
+.microsoft{
+   margin:2px ;
+   padding:3px ;
+   
+   height: 252px;
+   border-radius:10px;
+   margin:42px 42px ;
+   padding:3px ;
+   max-width: 25%;
+   
+   position:relative;
+   left:100px;
+   box-shadow:2px 2px 15px black,
+              2px 4px  15px white,
+              2px 8px  15px  white,
+              2px 12px 15px white;
+ 
+}
+.aws h4 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.aws h1 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   border-top:solid 2px rgb(209, 206, 206);
+   padding-bottom:2px;
+}
+
+
+.microsoft h4 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   padding-bottom:6px ;
+}
+.microsoft h1 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   border-top:solid 2px rgb(209, 206, 206);
+}
+.google h4 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+overflow: hidden;
+padding-bottom:6px ;
+}
+.google h1 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Courier New', Courier, monospace;
+   border-top:solid 2px rgb(209, 206, 206);
+}
+.aws:hover{
+   position:relative;
+   
+   bottom:22px;
+}
+.microsoft:hover{
+   position:relative;
+   
+   bottom:22px;
+  
+}
+.google:hover{
+   position:relative;
+   
+   bottom:22px;
+}
+/* .aws h1:hover{
+   background-color:orange;
+   
+   height: 252px;
+   left:0;
+   right:0;
+   transform: matrix(y);
+   transform-origin:top left;
+
+} */
+/* will try this one for hover effect  upper in orange */
+/* .aws h4::after{
+   background-color:orange;
+   
+   height: 0;
+   left:0;
+   right:0;
+   transition-duration: 0.6s;
+   width:100%;
+}
+.aws h4:hover{
+   height:100%;
+} */
+/* this is style by card img alignment */
+.aws img{
+   position:relative;
+   left:7rem;
+}
+.microsoft img{
+   position:relative;
+   left:7rem;
+}
+.google img{
+   position:relative;
+   left:7rem;
+}
+/* #bt2{
+   position: relative;
+   left:161px;
+   bottom: 609px;
+   z-index: 10;
+   position: ;
+} */
+
+.overall{
+   position: relative;
+   
+   bottom: 64rem;
+
+}
+.bt1{
+   
+   border-radius: 1px;
+   background-color: #f79520;
+   border-radius: 5px 25px 5px 25px;
+   padding: 12px ;
+   margin-left:2px;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   color:white;
+   font-weight:400;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   float: left;
+   position: relative;
+   left:92px;
+   bottom:-12px;
+}
+.bt3{
+   border-radius: 1px;
+   background-color: #f79520;
+   border-radius: 5px 25px 5px 25px;
+   padding: 12px ;
+   margin-left:2px;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   color:white;
+   font-weight:400;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   float: left;
+   position: relative;
+   left:99px;
+   bottom:-39px;
+}
+.rpa{
+   /* background-color: rgb(147, 238, 55); */
+   display:flex;
+   position:relative;
+   bottom:894px;
+   background-color: white;
+   height:1694px;
+   overflow-x:initial;
+   width: 100%;  
+   
+   
+
+   
+
+
+}
+.rpa1 {
+   float:left;
+
+}
+ .rpa2text h4{
+margin-bottom: 144px ;
+font-size:21px;
+padding: 22px 0 ;
+float: left;
+}
+.rpa1 img{
+   height: 25rem;
+}
+  .rpa .rpa2text h1{
+   font-family:sans-serif;
+   font-size:39px;
+   justify-content: center;
+   align-items: center;
+   text-shadow: 1px 2px 3px  aqua;
+   box-shadow:2px 2px 12px rgba(0 0 0 .3);
+   margin-top: 102px;
+   padding-left: 22px;
+   margin-right:153px;
+   background-color: rgb(238, 160, 16);
+  
+                 
+}
+.span{
+   margin-top: 122px;
+   padding-left: 22px;
+   margin-right:33px;
+}
+.rpa2text{
+   float:right;
+   text-shadow: 1px 2px 3px  aqua,
+   2px 4px 3px white;
+   justify-content: center;
+   align-items: center;
+   font-size:23px;
+  float:right;
+  position: relative; 
+  top:0px;
+  left:122px;
+  padding:5px;
+   padding-left: 5px 5px;
+font-size:12px;
+
+}
+ .rpa .rpa2text h4{
+   padding-right: 22%;
+ }
+
+
+
+.rpa2text u{
+   color:orange;
+}
+
+.allangular{
+   display:flex;
+   width:100%;
+ 
+
+   position:relative;
+   bottom:113rem;
+   
+
+}
+.angular:hover{
+   position: relative;
+bottom:22px;
+}
+.php:hover{
+   position: relative;
+bottom:22px;
+}
+.ui:hover{
+   position: relative;
+bottom:22px;
+}
+.blue:hover{
+   position: relative;
+bottom:22px;
+}
+
+.angular{
+   
+
+   position: relative; 
+   
+   height: 320px;
+    max-width: 20%;
+    border-radius:5px;
+    margin:0 2%;
+    
+    
+    box-shadow:2px 2px 15px black,
+    2px 4px  15px white,
+    2px 8px  15px  white,
+    2px 12px 15px white;
+ 
+}
+
+ .angular img {
+  
+   position: relative;
+   left:34px;
+   height: 64px;  
+}
+.angular h1 {
+   
+   font-size: 35px;
+   padding-bottom:8px;
+   text-align: center;
+   justify-content: center;
+   border-top:solid 2px rgb(179, 169, 169);
+  
+}
+.angular h3{
+   justify-content:center;
+   align-items:center;
+   margin: 12px 12px;
+   font-size:23px;
+   
+
+}
+.Know{
+   justify-content: center;
+   align-items:center;
+   border-radius: 5px 25px 5px 25px;
+   background-color:orange;
+   z-index:10px;
+   height:55px;
+   width:50%;
+  
+   margin:5px 5px ;
+   font-size: 22px;
+   color: white;
+   font-weight:800;
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+   position: relative;
+   left: 53px;
+
+   
+}
+.Know:hover{
+   background-color:black;
+   transform-origin: top right;
+   transform:skew(-15deg);
+}
+
+
+
+
+ .php{
+   
+   position: relative; 
+ 
+   height: 320px;
+   max-width: 20%;
+   border-radius:5px;
+   margin:0  2%;
+   
+   position: relative;
+  
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+
+}
+
+
+.php:hover{
+   background-color: orange;
+   transform-origin: top bottom;
+   z-index: 1;
+   transform: matrix(x);
+   /* transition: all .5s ease-in-out;
+   top:0;
+   bottom:0; */
+   
+    
+   
+}
+
+ .php img {
+   justify-content: center;
+   align-items:center;
+   position: relative;
+   left:25%;
+   height: 64px;
+   
+  
+}
+.php h1 {
+   
+   font-size: 35px;
+   padding-bottom:8px;
+   text-align: center;
+   justify-content: center;
+   border-top:solid 2px rgb(179, 169, 169);
+   padding:14px 14px;
+}
+.php h3{
+   justify-content:center;
+   align-items:center;
+   margin: 12px 12px;
+   font-size:23px;
+   
+
+}
+.Know{
+   justify-content: center;
+   justify-content: center;
+   align-items:center;
+   border-radius: 5px 25px 5px 25px;
+   background-color:orange;
+   z-index:10px;
+   height:55px;
+   
+  
+   margin:0px 5px ;
+   font-size: 22px;
+   color: white;
+   font-weight:800;
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+   position: relative;
+   left: -333px;
+   bottom:-34px;
+
+   
+}
+.Know:hover{
+   background-color:black;
+   transform-origin: top right;
+   transform:skew(-15deg);
+   
+} 
+.ui{
+   
+   max-width: 20%;
+   height: 320px;
+   border-radius:5px;
+   margin: 0 2% ;
+   
+   
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+
+}
+
+ .ui img {
+   justify-content: center;
+   align-items:center;
+   position: relative;
+   left:25%;
+   height: 64px;
+   
+  
+}
+.ui h1 {
+   
+   font-size: 35px;
+   padding-bottom:8px;
+   text-align: center;
+   justify-content: center;
+   border-top:solid 2px rgb(179, 169, 169);
+   padding:14px 14px;
+}
+.ui h3{
+   justify-content:center;
+   align-items:center;
+   margin: 12px 12px;
+   font-size:23px;
+   
+
+}
+#know{
+   justify-content: center;
+   align-items:center;
+   border-radius: 5px 25px 5px 25px;
+   background-color:orange;
+   z-index:10px;
+   height:55px;
+   
+  
+   margin:5px 5px ;
+   font-size: 22px;
+   color: white;
+   font-weight:800;
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+   position: relative;
+ 
+   top:15px;
+   left:22%;
+  
+
+   
+}
+.Know:hover{
+   background-color:black;
+   transform-origin: top right;
+   transform:skew(-15deg);
+}
+.blue{
+   
+  position: relative; 
+  height: 320px;
+   max-width: 20%;
+   border-radius:5px;
+   margin: 0 3% ;
+   
+   
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+
+}
+
+ .blue img {
+   justify-content: center;
+   align-items:center;
+   position: relative;
+   left:25%;
+   height: 64px;
+   
+  
+}
+.blue h1 {
+   
+   font-size: 35px;
+   padding-bottom:8px;
+   text-align: center;
+   justify-content: center;
+   border-top:solid 2px rgb(179, 169, 169);
+   padding:14px 14px;
+}
+.blue h3{
+   justify-content:center;
+   align-items:center;
+   margin: 12px 12px;
+   font-size:23px;
+   
+
+}
+.Know{
+   justify-content: center;
+   align-items:center;
+   border-radius: 5px 25px 5px 25px;
+   background-color:orange;
+   z-index:10px;
+   height:55px;
+   width:50%;
+  
+   margin:5px 5px ;
+   font-size: 22px;
+   color: white;
+   font-weight:800;
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+   position: relative;
+ 
+   top:35px;
+   left:22%;
+
+   
+}
+#know:hover{
+   background-color:black;
+   transform-origin: top right;
+   transform:skew(-15deg);
+} 
+
+ #last{
+   float:right;
+   height:322px;
+   
+}
+#last img{
+   height: 29rem;
+}
+/* another div open */
+.phyton{
+   margin: 4rem;
+}
+.phyton h1{
+padding:22px;
+font-weight: 700;
+
+}
+.phyton h4{
+   padding:22px;
+   font-size: 22px;
+   font-weight: 100;
+   }
+   #lt1{
+      justify-content: center;
+      align-items:center;
+      border-radius: 5px 25px 5px 25px;
+      background-color:#f3a91f;
+      
+      height:45px;
+      width:142px;
+     
+      margin:2rem  2rem;
+      
+      font-size: 19px;
+      color: white;
+      font-weight:500;
+      box-shadow:2px 2px 15px black,
+      2px 4px  15px white,
+      2px 8px  15px  white,
+      2px 12px 15px white;
+      padding:12px;
+   }
+
+  .lt3{
+   justify-content: center;
+   align-items:center;
+  background-size: cover;
+   border-radius: 5px 25px 5px 25px;
+   background-color:#f3a91f;
+   
+   height:35px;
+   width:142px;
+ 
+   font-size: 19px;
+   color: white;
+   font-weight:500;
+   box-shadow:2px 2px 15px black,
+   2px 4px  15px white,
+   2px 8px  15px  white,
+   2px 12px 15px white;
+   padding:12px;
+   margin-bottom: 16px !important;
+   
+  }
+
+.Djangophyton{
+   
+    
+    
+    box-shadow:2px 2px 15px black,
+    2px 4px  15px white,
+    2px 8px  15px  white,
+    2px 12px 15px white;
+    
+    width: 34rem;
+    border-radius:22px 22px;    
+    margin: 4rem;
+  
+height: 15rem;
+border-bottom:2px solid black;
+}
+
+#djan{
+   display:flex;
+   
+}
+#djan h1{
+   margin:22px;
+}
+#djan h4{
+   padding-right:5rem;
+   font-size:15px;
+   font-family:verdana;
+   margin:3px 2px 22px 22px;
+
+}
+#djan img{
+   margin-top:3rem;
+   height: 6rem;
+   background-size:contian;
+   border-radius:50%;
+   border:solid 1px black;
+}
+#djan .lt3{
+   margin:0px 0px 0px 230px ;
+}
+
+.phytontraining{
+   position:relative;
+   bottom:97rem;
+
+}
+.rpa2text h1{
+
+
+border:solid 2px crimson;
+}
+
+
+#Djangophyton12{
+   float:right;
+   position: relative;
+      top:232px;
+      
+   }
+   
+   #Djangophyton11{
+      float:right;
+      
+      top:172px;
+      }
+      #Djangophyton13{
+         float:right;
+         position: relative;
+      top:-82px;
+         
+         }
+         .totalDjangophyton{
+            position: relative;
+            bottom:452px;
+           
+         }
+         .Djangop{
+            position: relative;
+            bottom: 2044px;
+         }
+         #Djangophyton12 :hover{
+            position: relative;
+            bottom:22px;
+            background-color: orange;
+         }
+         #Djangophyton11 :hover{
+            position: relative;
+            bottom:22px;
+            background-color: aqua;
+
+         }
+         #Djangophyton13 :hover{
+            position: relative;
+            bottom:22px;
+            background-color: aqua;
+         }
+         #Djangophyton14 :hover{
+            position: relative;
+            bottom:22px;
+            background-color: orange;
+             
+         }
+         
+         .totalDjangophyton3{
+            
+            position:relative;
+            top:1922px;
+         }
+        .totalDjangophyton31{
+         position:relative;
+        bottom:222px;
+        }
+         
+/* .awstotal::after{
+
+transform:skew(34deg);
+height: 100%;
+left:0;
+top:-35deg;
+transition-duration:0.5s;
+transform-origin: top bottom;
+right:0;
+width: 0;
+background-color: green;
+
+} */
+/* .aws h4 :hover{
+   width: 35%;
+   height: 100%;
+   background:#ff96ad;
+   box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+.img{
+   margin-left: 2px;
+} */
