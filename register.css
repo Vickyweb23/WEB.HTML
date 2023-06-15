@@ -1,0 +1,52 @@
+div.form{
+    background:linear-gradient( 65deg, skyblue, palevioletred, yellow) ;  
+    width: 44%;
+    border-radius:12px;
+    padding:10px 11px;
+    margin:0rem 25rem;
+}
+label{
+    margin:0rem 5rem;
+  display:inline-block;
+    font-size: 15px;
+    width: 140px;
+   
+   
+    
+
+}
+input{
+  margin: 1rem;
+  padding:6px;
+  border-radius:4px;
+  border:solid 2px  aqua;
+  color:whitesmoke;
+  
+}
+input:hover{
+    
+    padding:14px;
+    background:#86b4da;
+    color:lightcoral;
+    border:solid 2px  skyblue;
+
+}
+#sumit{
+    margin-top: 7px;
+    width: 41%;
+    height: 2rem;
+    background-color: rgb(16, 171, 233);
+    margin:1rem 10rem;
+    padding:1px 1px;
+    
+}
+#sumit:hover{
+    background-color: chartreuse;
+    color: black;
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 12px aqua;
+}
