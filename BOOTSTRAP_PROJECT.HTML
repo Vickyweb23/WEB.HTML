@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 50px;
+    }
+    .jumbotron {
+      background-image: url('path/to/background-image.jpg');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px;
+    }
+    .feature {
+      text-align: center;
+      padding: 50px 0;
+    }
+    .feature i {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Bootstrap Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="jumbotron">
+    <h1 class="display-4">Welcome to Bootstrap Website</h1>
+    <p class="lead">Build responsive websites easily with Bootstrap.</p>
+    <a href="#features" class="btn btn-primary btn-lg">Learn More</a>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fas fa-desktop"></i>
+          <h3>Responsive Design</h3>
+          <p>Create websites that look great on all devices.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-cogs"></i>
+          <h3>Easy to Use</h3>
+          <p>Bootstrap provides a simple and intuitive framework.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-code"></i>
+          <h3>Customizable</h3>
+          <p>Customize Bootstrap to match your project's needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions or need assistance? Get in touch!</p>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Bootstrap Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
